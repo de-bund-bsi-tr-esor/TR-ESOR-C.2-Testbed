@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pres:DigestList xmlns:pres="http://uri.etsi.org/19512/v1.1.2#" xmlns:ds-rw="http://docs.oasis-open.org/dss-x/ns/xmldsig/rewritten">
+	<ds-rw:DigestMethod Algorithm="urn:oid:2.16.840.1.101.3.4.2.1"/>
+	<ds-rw:DigestValue>wy/tbZ9qnMF8SgmKcvMJKCgyVZJP2k/GTYjclk5ffCkp</ds-rw:DigestValue>
+	<ds-rw:DigestValue>wy/tbZ9qnMF8SgmKcvMJKCgyVZJP2k/GTYjclk5ffCkp</ds-rw:DigestValue>
+	<ds-rw:DigestValue>wy/tbZ9qnMF8SgmKcvMJKCgyVZJP2k/GTYjclk5ffCkp</ds-rw:DigestValue>
+	<ds-rw:DigestValue>wy/tbZ9qnMF8SgmKcvMJKCgyVZJP2k/GTYjclk5ffCkp</ds-rw:DigestValue>
+</pres:DigestList>

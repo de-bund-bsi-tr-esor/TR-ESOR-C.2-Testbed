@@ -1,0 +1,26 @@
+<xaip:XAIP XAIPVersion="1.3.0" xmlns:xaip="http://www.bsi.bund.de/tr-esor/xaip" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dss="urn:oasis:names:tc:dss:1.0:core:schema">
+	<xaip:packageHeader packageID="PKGID-01">
+		<xaip:AOID>AOID-SO-020202-030303</xaip:AOID>
+		<xaip:packageInfo>Information über diesen AIP</xaip:packageInfo>
+		<xaip:versionManifest VersionID="V001">
+			<xaip:versionInfo>Initiale Version</xaip:versionInfo>
+			<xaip:preservationInfo>
+				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
+			</xaip:preservationInfo>
+			<xaip:submissionInfo>
+				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+			</xaip:submissionInfo>
+			<xaip:packageInfoUnit packageUnitID="PKDIUID-01">
+				<xaip:textInfo>Initialer Stand des abgelegten Vorgangs</xaip:textInfo>
+				<xaip:protectedObjectPointer>DO-01</xaip:protectedObjectPointer>
+			</xaip:packageInfoUnit>
+		</xaip:versionManifest>
+		<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+	</xaip:packageHeader>
+	<xaip:dataObjectsSection>
+		<xaip:dataObject dataObjectID="DO-01">
+			<!-- TXT_DATA.txt -->
+			<xaip:binaryData MimeType="text/plain">DQpCdW5kZXNhbXQgZvxyIFNpY2hlcmhlaXQgaW4gZGVyIEluZm9ybWF0aW9uc3RlY2huaWsgKEJTSSkNCg0KVGVzdGRva3VtZW50Lg0KDQoyMDE5</xaip:binaryData>
+		</xaip:dataObject>
+	</xaip:dataObjectsSection>
+</xaip:XAIP>

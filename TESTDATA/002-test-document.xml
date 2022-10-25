@@ -1,0 +1,5 @@
+<ns1:TestDaten xmlns:ns1="uri:bsi.bund.de.tr03125.test">
+	<ns1:Titel>TR-03125 Testdokument</ns1:Titel>
+	<ns1:Beschreibung>Das ist ein Testdokument für die Darstellung der XML-Signaturen.</ns1:Beschreibung>
+	<ns2:Copyright xmlns:ns2="uri:bsi.bund.de.tr03125.test.cr">Copyright (C) BSI 2019</ns2:Copyright>
+</ns1:TestDaten>

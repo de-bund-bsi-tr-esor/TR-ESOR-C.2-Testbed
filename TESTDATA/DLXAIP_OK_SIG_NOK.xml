@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xaip:DXAIP XAIPVersion="1.3.0" xmlns:xaip="http://www.bsi.bund.de/tr-esor/xaip" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:asic="http://uri.etsi.org/02918/v1.2.1#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dss="urn:oasis:names:tc:dss:1.0:core:schema">
+	<xaip:packageHeader packageID="PKGID-01">
+		<xaip:AOID>TO_BE_CHANGED</xaip:AOID>
+		<xaip:packageInfo>Some info about this package</xaip:packageInfo>
+		<xaip:versionManifest VersionID="V002">
+			<xaip:versionInfo>Initiale Version</xaip:versionInfo>
+			<xaip:preservationInfo>
+				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
+			</xaip:preservationInfo>
+			<xaip:submissionInfo>
+				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+			</xaip:submissionInfo>
+			<xaip:packageInfoUnit packageUnitID="PKDIUID-02">
+				<xaip:textInfo>Erstes Update des abgelegten Vorgangs</xaip:textInfo>
+				<xaip:protectedObjectPointer>DO-01</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>CR-01</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>MDO-01</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>DO-02</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>CR-02</xaip:protectedObjectPointer>
+				<!-- following single document has been added in the version V002 -->
+				<xaip:protectedObjectPointer>DO-03</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>CR-03</xaip:protectedObjectPointer>
+			</xaip:packageInfoUnit>
+		</xaip:versionManifest>
+		<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+	</xaip:packageHeader>
+	<xaip:dataObjectsSection>
+		<xaip:dataObject dataObjectID="DO-03">
+			<!-- reference to file XML_DATA_XX.xml -->
+			<xaip:xmlData>
+				<asic:DataObjectReference URI="REF_XML_DATA">
+					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+					<ds:DigestValue>zjbzSUhyjWDJnXlrSnGZtoiCZcXEyn2kgKvY6tB7IBU=</ds:DigestValue>
+				</asic:DataObjectReference>
+			</xaip:xmlData>
+		</xaip:dataObject>
+	</xaip:dataObjectsSection>
+	<xaip:credentialsSection>
+		<xaip:credential credentialID="CR-03" relatedObjects="DO-03">
+			<!-- reference to file XML_DATA_XX_NOK.xml.p7s -->
+			<xaip:other>
+				<asic:DataObjectReference URI="REF_CADES_DET_NOK_XML_DATA">
+					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+					<ds:DigestValue>O4QnMRbmJFQPtDiypU2IyflxqMygs/m/VQoxxcIlZ0E=</ds:DigestValue>
+				</asic:DataObjectReference>
+			</xaip:other>
+		</xaip:credential>
+	</xaip:credentialsSection>
+	<xaip:updateSection>
+		<xaip:prevVersion>V001</xaip:prevVersion>
+		<xaip:placeHolder objectID="MDO-01"/>
+		<xaip:placeHolder objectID="DO-01"/>
+		<xaip:placeHolder objectID="DO-02"/>
+		<xaip:placeHolder objectID="CR-01"/>
+		<xaip:placeHolder objectID="CR-02"/>
+	</xaip:updateSection>
+</xaip:DXAIP>
