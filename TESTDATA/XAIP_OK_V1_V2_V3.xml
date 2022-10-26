@@ -23,7 +23,7 @@
 				<xaip:retentionPeriod>2101-01-01+01:00</xaip:retentionPeriod>
 			</xaip:preservationInfo>
 			<xaip:submissionInfo>
-				<xaip:clientID>BSI Test-Client</xaip:clientID>
+				<xaip:clientID>BSI-Test-Client</xaip:clientID>
 			</xaip:submissionInfo>
 			<xaip:packageInfoUnit packageUnitID="PKDIUID-02">
 				<xaip:textInfo>Initialer Stand des abgelegten Vorgangs</xaip:textInfo>
