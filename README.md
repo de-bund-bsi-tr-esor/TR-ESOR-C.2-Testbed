@@ -2,7 +2,7 @@
 
 ## Important
 
-**Notice** the used test material is dealing with cryptographis functions such electronig signatures timstamps etc. Therefore this is important, that the checked out/cloned sources must not be altered in any way. This refer also to the *CR* and *CRLF* issue. Before clone the repository, please make sure the original allignment of the end lines, especially of xml- and txt-based files will be not changed. You cann do that e.g. by switching off this transformation global in your git environment: *git config --global core.autocrlf false*.
+**Notice** the used test material is dealing with cryptographic functions such electronig signatures timstamps etc. Therefore this is important, that the checked out/cloned sources must not be altered in any way. This refer also to the *CR* and *CRLF* issue. Before clone the repository, please make sure the original allignment of the end lines, especially of xml- and txt-based files will not be changed. You can do that e.g. by switching off this transformation global in your git environment: *git config --global core.autocrlf false*.
 
 ## Introduction
 
