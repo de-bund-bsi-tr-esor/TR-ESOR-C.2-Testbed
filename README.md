@@ -39,14 +39,14 @@ Following tasks have to be executed as a preparation for the tests execution.
 
 **Notice 3**, the current version of the testbed is still working with mock implementation of the both verification tools: XSVT and ERVT. The execution of the steps 14, 15, 16 and 17 is not necessary and can be omitted.
 
-1. Do create a test tenant in the TOE with client-id "Bsi" (cf. *\<xaip:submissionInfoType\>* in [TR-ESOR-F, page 17](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_F_V1_3.pdf).
-2. Do insert the TOE endpoint adress of the S.4 interface into proper property **TOE_S4_ENDPOINT** in the props-file. </br>**Please notice** the testbed does support the http cimmunication as default one, anything more has to be configured according to the SoapUI configuration.
-3. Do check and adjust the value of the **TOE_S4_ENDPOINT** property in the props-file, as needed.
+1. Do create a test tenant in the TOT with client-id "Bsi" (cf. *\<xaip:submissionInfoType\>* in [TR-ESOR-F, page 17](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_F_V1_3.pdf)).
+2. Do insert the TOT endpoint address of the S.4 interface into the corresponding property **TOE_S4_ENDPOINT** in the props-file. </br>**Please notice** the C.2-Testbed does support the http communication as default one. Anything more has to be configured according to the SoapUI documentation.
+3. Do check and adjust the value of the **ERVT_ENDPOINT** property in the props-file, as needed.
 4. Do check and adjust the value of the **XSVT_ENDPOINT** property in the props-file, as needed.
-5. Do configure the behaviour of TOE in case of signature verification errors by enabling one (the other one has to be disabled - set to **NO**) of the following properties:
+5. Do configure the behaviour of TOT in case of signature verification errors by enabling one (the other one has to be disabled - set to **NO**) of the following properties:
 	- set value of **OPT_VERIFY_VR_STANDALONE** property to **YES**, if only verification report used to be returned,
 	- set value of **OPT_VERIFY_VR_EMB_IN_CONTAINER** property to **YES**, if the verification report embedded into a given XAIP or LXAIP used to be returned.
-6. Do configure the behaviour of the TOE in case an invalid XML struxture is used at S.4 by enabling one of the following properties (the other one has to be set to **NO**):
+6. Do configure the behaviour of the TOT in case an invalid XML structure is used at S.4 by enabling one of the following properties (the other one has to be set to **NO**):
 	- set value of **OPT_INVALID_XML_AS_SOAP_FAULT** to **YES** in case a soap fault used to be returend,
 	- set value of **OPT_INVALID_XML_AS_S4_ERROR** to **YES** in case an application level status code used to be returend.
 7. Do check and adjust as needed the value of **SUBMISSION_TIME_RANGE_IN_DAYS** proeprty (in days), which does describe the maximal deviation of the given *\<xaip:submissionTime\>* and the current time.
