@@ -5,12 +5,12 @@ LABEL COMPONENT TR-ESOR Evidence Record Verification Tool
 
 ENV ERV_HOST=erv-srv
 ENV ERV_PORT=9090
-ENV ERV_CONF=/opt/config-rfc4998-online.xml
+ENV ERV_CONF=/opt/config-rfc4998-offline.xml
 ENV ERV_VERSION=1.3.3
 ENV ERV_HOME=/opt/ERVerifyTool
 ENV ERV_BIN=$ERV_HOME/all/build/install/cli/bin
   
-ADD config-rfc4998-online.xml /opt/
+ADD config-rfc4998-offline.xml /opt/
 ADD run-srv.sh /opt/
 ADD build-erv.sh /opt/
 
