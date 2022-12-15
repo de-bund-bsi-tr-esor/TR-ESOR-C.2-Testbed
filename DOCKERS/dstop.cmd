@@ -1,13 +1,13 @@
 @setlocal
 @echo off
 
-echo [i] stop the both containers: xsv-srv and erv-srv
+echo [i] stop the both docker containers: xsv-srv and erv-srv
 
 docker stop xsv-srv
 
 docker stop erv-srv
 
-echo [i]current status of running container:
+echo [i] current status of running docker containers:
 echo:
 docker ps
 echo:

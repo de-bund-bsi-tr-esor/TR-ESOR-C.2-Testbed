@@ -17,7 +17,7 @@ call dbuild.cmd
 popd
 
 echo:
-echo [i] list of known containers:
+echo [i] list of known docker containers:
 echo:
 docker images
 

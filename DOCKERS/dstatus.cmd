@@ -3,11 +3,11 @@
 
 echo [i] current status of the testbed
 echo:
-echo current status of images:
+echo [i] current status of docker images:
 echo:
 docker images
 echo:
-echo [i] current status of container:
+echo [i] current status of all known docker containers:
 echo:
 docker ps -a
 echo:
