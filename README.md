@@ -27,6 +27,7 @@ and the following Archive Information Packages (AIP):
 + *TESTDATA* - contains the test data files used while executing the tests.
 + *XSVT-UPLOADs* - contains the test data files to be copied into the [tr-esor-AIP-eIDAS-SigValidator](https://github.com/de-bund-bsi-tr-esor/tr-esor-AIP-eIDAS-SigValidator)  (short XSVT) LXAIP data directory. (Apply only in case the LXAIP should be supported.)
 + *TR-ESOR-1.3.0-S4-Testbed-soapui-project.xml* - the main project file to be loaded into [SoapUI-Tool](https://www.soapui.org/downloads/soapui/)
++ *BSI TR-03125_C.2_V1.3.pdf* - the current version of [TR-ESOR-C.2]
 
 ## Approach
 ### Preparations
