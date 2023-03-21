@@ -83,3 +83,32 @@ Following tasks have to be executed as a preparation for the tests execution.
 
 ### Results
 * The testbed does implement only the mandatory tests at the moment. In order to get the [TR-ESOR-C.2] passed, all the tests have to be successfully performed.
+
+# License
+
+This software is underlying the rules of the following license: Apache License Version 2.0, January 2004.
+The software was created by:
+
+Fraunhofer Institute for Open Communication Systems (FOKUS) </br>
+Digital Public Services (DPS)
+
+on behalf of the Federal Office for Information Security.
+
+## Contact
+
+Federal Office for Information Security (BSI)<br>
+Godesberger Allee 185-189<br>
+53175 Bonn, Germany<br>
+phone: +49 228 99 9582-0<br>
+fax: +49 228 99 9582-5400<br>
+e-mail: bsi@bsi.bund.de
+
+and
+
+Fraunhofer Institute for Open Communication Systems (FOKUS) </br>
+Digital Public Services (DPS) </br>
+Kaiserin-Augusta-Allee 31<br>
+10589 Berlin, Germany<br>
+Sudetenstraße 16<br>
+phone: +49(0)30/3463-7115<br>
+e-mail: dpskontakt@fokus.fraunhofer.de
