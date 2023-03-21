@@ -56,10 +56,10 @@ Following tasks have to be executed as a preparation for the tests execution.
 11. Do define the support of LXAIP by proper setting the value of property **CONFIG_LXAIP** (possible values are **ENABLED** or **DISABLED**)
 12. Do define the not existed AOIDs for the XAIP test cases by setting a value of **AOID-03** and **AOID-06** properties.
 13. Do submit an XAIP in order to have the belonging retention period expired at the time of test execution and document the corresponding AOID in the property **AOID-00**, as well as used version id in the property **AOID-00.V01**.
-14. ~~*[LXAIP]*: Do check and adjust (as needed) the location for the referenced data objects for XSVT, property **XSV_LXAIP_DIR_URI**.~~
-15. ~~*[LXAIP]*: Do check and adjust (as needed) the location for the referenced data objects for ERVT, property **ERVT_LXAIP_DIR_URI**.~~
-16. ~~*[LXAIP]*: Do copy all the files from directory XSVT-UPLOADs into kocation specified in step 14.~~
-17. ~~*[LXAIP]*: Do copy all the files from directory ERVT-UPLOADs into the location specified in step 15.~~
+14. *[LXAIP]*: Do check and adjust (as needed) the location for the referenced data objects for XSVT, property **XSV_LXAIP_DIR_URI**.
+15. *[LXAIP]*: Do check and adjust (as needed) the location for the referenced data objects for ERVT, property **ERVT_LXAIP_DIR_URI**.
+16. *[LXAIP]*: Do copy all the files from directory XSVT-UPLOADs into kocation specified in step 14.
+17. *[LXAIP]*: Do copy all the files from directory ERVT-UPLOADs into the location specified in step 15.
 18. *[LXAIP]*: Do submit an LXAIP in order to have the belonging retention period expired at the time of test execution and document the corresponding AOID in the property **AOID-00a**, as well as used version id in the property **AOID-00a.V01**.
 19. *[LXAIP]*: Do upload all the files from LXAIP-UPLOADs directory into TOE by using the Upload/Download-Interface and document the given references in the corresponding property in the props-file. 
 	+ example: uploading of **PDF_DATA_50.pdf** file did produce **uuid:1122-2343-5634-4545" as reference, than set the test value of **REF_PDF_DATA_50** property to **uuid:1122-2343-5634-4545**.
@@ -77,9 +77,7 @@ Following tasks have to be executed as a preparation for the tests execution.
 	b. Do make sure, the "Overview" tab at the top and the "Properties" tab at the bottom of the project configuration dialog are activated.
 	c. Do click the forelast icon in the icon bar of the "Properties" tab -> the "Load Properties"-Dialog will appear
 	d. Do browse to the generated SoapUI project property file, as result of step 20 in the Preparations and do activate both checkboxes **Creates Missing Properties** as well as **Deletes properties not in file**. Do press "OK" button
-4. Do start the moch S4-Service
-	a. Do right cklick on the "S4-V1.3.0-mock" item in the "TR-S4-1.3.0-Beta" project in the "Navigator" panel and do chose "Start Minimized" menuitem.
-5. Do execute the test suites
+4. Do execute the test suites
 	+ **Notice**, depending of your test strategy you can try to perform all the tests at once, doing it suite by suite, execute them test case by test case or even execute the single steps in the particular test cases manually. **It ist important to keep the execution, which is top-down, begining by 3.4.1 and ending by 3.4.8**, to preserve the interdependencies of the partiular tests cases.
 
 ### Results

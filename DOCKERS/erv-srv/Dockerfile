@@ -1,6 +1,6 @@
 FROM alpine-j11:1.0.0
 
-LABEL COPYRIGHT BSI TR-ESOR-S.4-Testbed (C) 2022
+LABEL COPYRIGHT BSI TR-ESOR-S.4-Testbed (C) 2023
 LABEL COMPONENT TR-ESOR Evidence Record Verification Tool
 
 ENV ERV_HOST=erv-srv
