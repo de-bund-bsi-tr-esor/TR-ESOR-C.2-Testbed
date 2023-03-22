@@ -109,6 +109,5 @@ Fraunhofer Institute for Open Communication Systems (FOKUS) </br>
 Digital Public Services (DPS) </br>
 Kaiserin-Augusta-Allee 31<br>
 10589 Berlin, Germany<br>
-Sudetenstraße 16<br>
 phone: +49(0)30/3463-7115<br>
 e-mail: dpskontakt@fokus.fraunhofer.de
