@@ -9,7 +9,7 @@
 				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
 			</xaip:preservationInfo>
 			<xaip:submissionInfo>
-				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+				<xaip:clientID>CLIENT_ID_TO_BE_SET</xaip:clientID>
 			</xaip:submissionInfo>
 			<xaip:packageInfoUnit packageUnitID="PKDIUID-02">
 				<xaip:textInfo>Erster Update des abgelegten Vorgangs</xaip:textInfo>
@@ -31,19 +31,19 @@
 				<asic:DataObjectReference URI="REF_XML_DATA_56">
 					<!-- SHA-512 algorithm is used -->
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
-					<ds:DigestValue>TYlLGeP5Fga+ABb/DTMQBee8xGZDRA9ktxTaZTw2aIrMz8YmclJKB9dHBihMgxv9LwpwdODxW13hSkvqZimHqw==</ds:DigestValue>
+					<ds:DigestValue>2II0/Zp0jBw+idXJn70Fud38rf5WiJjTFbT5v0D2JvIAejL8Xt7TEBiFkveyILhJdZwxxi4K/ER8pGTKURe0WA==</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:xmlData>
 		</xaip:dataObject>
 	</xaip:dataObjectsSection>
 	<xaip:credentialsSection>
 		<xaip:credential credentialID="CR-01" relatedObjects="DO-03">
-			<!-- reference to file XML_DATA_56.xml.p7m -->
+			<!-- reference to file XML_DATA_56.xml.p7s -->
 			<xaip:other>
 				<asic:DataObjectReference URI="REF_CADES_DET_XML_DATA_56">
 					<!-- SHA-512 algorithm is used -->
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
-					<ds:DigestValue>xql4r8hROulm+mCzp+CoHoVYCwE6InZ2GWQmkyKaDgVUTNh/whqAEeMJ6tI2u5Gl+uI8srR0AjH8/pX2hzMFog==</ds:DigestValue>
+					<ds:DigestValue>DZKZ7l29/sVDksSlM60x1c9y0ipyHTO2wDCdxsZfCkJk4gTq+Lyi62THjDGgnZkLnswQA91WMubu89NELylRpw==</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:other>
 		</xaip:credential>

@@ -9,15 +9,15 @@
 				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
 			</xaip:preservationInfo>
 			<xaip:submissionInfo>
-				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+				<xaip:clientID>CLIENT_ID_TO_BE_SET</xaip:clientID>
 			</xaip:submissionInfo>
 			<xaip:packageInfoUnit packageUnitID="PKDIUID-01">
 				<xaip:textInfo>Initialer Stand des abgelegten Vorgangs</xaip:textInfo>
-				<xaip:protectedObjectPointer>DO-03</xaip:protectedObjectPointer>
-				<xaip:protectedObjectPointer>CR-03</xaip:protectedObjectPointer>
-				<xaip:protectedObjectPointer>MDO-03</xaip:protectedObjectPointer>
-				<xaip:protectedObjectPointer>DO-04</xaip:protectedObjectPointer>
-				<xaip:protectedObjectPointer>CR-04</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>DO-01</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>CR-01</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>MDO-01</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>DO-02</xaip:protectedObjectPointer>
+				<xaip:protectedObjectPointer>CR-02</xaip:protectedObjectPointer>
 			</xaip:packageInfoUnit>
 			<xaip:extension/>
 		</xaip:versionManifest>
@@ -25,7 +25,7 @@
 		<xaip:extension/>
 	</xaip:packageHeader>
 	<xaip:metaDataSection>
-		<xaip:metaDataObject relatedObjects="DO-03" metaDataID="MDO-03">
+		<xaip:metaDataObject relatedObjects="DO-01" metaDataID="MDO-01">
 			<!-- reference to file XML_MDO_66.xml -->
 			<xaip:xmlMetaData>
 				<asic:DataObjectReference URI="REF_XML_MDO_66">
@@ -36,41 +36,41 @@
 		</xaip:metaDataObject>
 	</xaip:metaDataSection>
 	<xaip:dataObjectsSection>
-		<xaip:dataObject dataObjectID="DO-03" relatedObjects="MDO-03">
+		<xaip:dataObject dataObjectID="DO-01" relatedObjects="MDO-01">
 			<!-- reference to file TXT_DATA_66.txt -->
 			<xaip:xmlData>
 				<asic:DataObjectReference URI="REF_TXT_DATA_66">
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-					<ds:DigestValue>wy/tbZ9qnMF8SgmKcvMJKCgyVZJP2k/GTYjclk5ffCk=</ds:DigestValue>
+					<ds:DigestValue>CotXKP/WOudnc9ufhSAEvXq/IXuvZGrXuhrVaW4DAjY=</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:xmlData>
 		</xaip:dataObject>
-		<xaip:dataObject dataObjectID="DO-04">
+		<xaip:dataObject dataObjectID="DO-02">
 			<!-- reference to file PDF_DATA_66.pdf -->
 			<xaip:xmlData>
 				<asic:DataObjectReference URI="REF_PDF_DATA_66">
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-					<ds:DigestValue>z6+H9l1ixXBhhHpa0vYYpAbJ3yPfS53xyuhyMBPdw68=</ds:DigestValue>
+					<ds:DigestValue>LRHJKSvLkScAa2CrIJgWjyl6TVv541vHqgqer+RtasI=</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:xmlData>
 		</xaip:dataObject>
 	</xaip:dataObjectsSection>
 	<xaip:credentialsSection>
-		<xaip:credential credentialID="CR-03" relatedObjects="DO-03">
+		<xaip:credential credentialID="CR-01" relatedObjects="DO-01">
 			<!-- reference to file TXT_DATA_66.txt.p7s -->
 			<xaip:other>
 				<asic:DataObjectReference URI="REF_CADES_DET_TXT_DATA_66">
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-					<ds:DigestValue>cPMTEfFms2y/UkzT5/gUqHI1WY/jSR+AbNo9QUSm2rY=</ds:DigestValue>
+					<ds:DigestValue>vKZiNx4JL0UaZVZ0ddigYxS+fs1AsECVKg049gMqg58=</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:other>
 		</xaip:credential>
-		<xaip:credential credentialID="CR-04" relatedObjects="DO-04">
+		<xaip:credential credentialID="CR-02" relatedObjects="DO-02">
 			<!-- reference to file PDF_DATA_66.pdf.p7s -->
 			<xaip:other>
 				<asic:DataObjectReference URI="REF_CADES_DET_PDF_DATA_66">
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-					<ds:DigestValue>84ifcXtGhp8oG+ppLxeJn9E6VdsiTJGaEXxKOyb6y+A=</ds:DigestValue>
+					<ds:DigestValue>DJba4GHE40CPkpIZWqj1xlEskGiGI/gXJym8Buar8Zc=</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:other>
 		</xaip:credential>

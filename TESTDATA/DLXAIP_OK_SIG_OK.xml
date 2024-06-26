@@ -9,7 +9,7 @@
 				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
 			</xaip:preservationInfo>
 			<xaip:submissionInfo>
-				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+				<xaip:clientID>CLIENT_ID_TO_BE_SET</xaip:clientID>
 			</xaip:submissionInfo>
 			<xaip:packageInfoUnit packageUnitID="PKDIUID-02">
 				<xaip:textInfo>Erstes Update des abgelegten Vorgangs</xaip:textInfo>
@@ -27,22 +27,22 @@
 	</xaip:packageHeader>
 	<xaip:dataObjectsSection>
 		<xaip:dataObject dataObjectID="DO-03">
-			<!-- reference to file XML_DATA_XX.xml -->
+			<!-- reference to file XML_DATA_XX.xml (ASiCManifest.xml) -->
 			<xaip:xmlData>
 				<asic:DataObjectReference URI="REF_XML_DATA">
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-					<ds:DigestValue>zjbzSUhyjWDJnXlrSnGZtoiCZcXEyn2kgKvY6tB7IBU=</ds:DigestValue>
+					<ds:DigestValue>nxR6t1RhQwmFXRjPjjhHyLJQyjbudAL69ze3IDPpvlc=</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:xmlData>
 		</xaip:dataObject>
 	</xaip:dataObjectsSection>
 	<xaip:credentialsSection>
 		<xaip:credential credentialID="CR-03" relatedObjects="DO-03">
-			<!-- reference to file XML_DATA_XX.xml.p7s -->
+			<!-- reference to file XML_DATA_XX.xml.p7s (ASiCManifest.xml.p7s) -->
 			<xaip:other>
 				<asic:DataObjectReference URI="REF_CADES_DET_XML_DATA">
 					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-					<ds:DigestValue>zOKPT4BdPW0TCYD0p6f8/P+kM1eaBs6c3unIkySlBXk=</ds:DigestValue>
+					<ds:DigestValue>iNXe9TkxWU5cnJs1lzIBlz2o6Jsl/cBGgvR/9r1ANrI=</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:other>
 		</xaip:credential>

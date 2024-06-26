@@ -1,0 +1,263 @@
+<vr:VerificationReport xmlns:vr="urn:oasis:names:tc:dss-x:1.0:profiles:verificationreport:schema#" xmlns:esorvr="http://www.bsi.bund.de/tr-esor/vr" xmlns:dss="urn:oasis:names:tc:dss:1.0:core:schema">
+	<dss:VerificationTimeInfo xmlns:dss="urn:oasis:names:tc:dss:1.0:core:schema">
+		<dss:VerificationTime>2022-06-03T10:08:38.648+02:00</dss:VerificationTime>
+	</dss:VerificationTimeInfo>
+	<vr:VerifierIdentity>
+		<vr:SAMLv2Identifier>urn:verifier_id</vr:SAMLv2Identifier>
+	</vr:VerifierIdentity>
+	<vr:IndividualReport>
+		<vr:SignedObjectIdentifier FieldName="command line parameter data/evidenceRecord:ER_2.16.840.1.101.3.4.2.1_V001"/>
+		<dss:Result>
+			<dss:ResultMajor>urn:oasis:names:tc:dss:1.0:resultmajor:Success</dss:ResultMajor>
+			<dss:ResultMessage xml:lang="en">atss/0/0/tsp/sigAlgo: Die Signatur ist gültig. atss/0/1/tsp/sigAlgo: Die Signatur ist gültig.</dss:ResultMessage>
+		</dss:Result>
+		<vr:Details>
+			<esorvr:EvidenceRecordReport ReportVersion="1.3.0">
+				<esorvr:FormatOK>
+					<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+					<vr:ResultMessage xml:lang="en"/>
+				</esorvr:FormatOK>
+				<esorvr:DigestAlgorithm>
+					<vr:Algorithm>2.16.840.1.101.3.4.2.1</vr:Algorithm>
+					<vr:Suitability>
+						<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+					</vr:Suitability>
+				</esorvr:DigestAlgorithm>
+				<esorvr:ArchiveTimeStampSequence>
+					<esorvr:ArchiveTimeStampChain>
+						<esorvr:ArchiveTimeStamp>
+							<vr:FormatOK>
+								<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+								<vr:ResultMessage xml:lang="en"/>
+							</vr:FormatOK>
+							<vr:DigestAlgorithm>
+								<vr:Algorithm>2.16.840.1.101.3.4.2.1</vr:Algorithm>
+								<vr:Suitability>
+									<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+								</vr:Suitability>
+							</vr:DigestAlgorithm>
+							<vr:ReducedHashTree>
+								<vr:PartialHashTree>
+									<vr:HashValue>
+										<vr:HashValue>9CE2D7D350F9418407439F0CA11DCC12AB9F7CDB15F9ECC5ECA935482602B872</vr:HashValue>
+									</vr:HashValue>
+									<vr:HashValue>
+										<vr:HashValue>EECC4D3352C0E965FD88795EDFD1A60C5AC09B3C1100C052EBB6AE0BD3432B26</vr:HashValue>
+									</vr:HashValue>
+								</vr:PartialHashTree>
+								<vr:PartialHashTree>
+									<vr:HashValue>
+										<vr:HashValue>BC99AC9555C639E8AF0432BF441C3A06D4188E659E63890A26ED644CFDD3ECAE</vr:HashValue>
+									</vr:HashValue>
+								</vr:PartialHashTree>
+							</vr:ReducedHashTree>
+							<vr:TimeStamp>
+								<vr:FormatOK>
+									<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+									<vr:ResultMessage xml:lang="en"/>
+								</vr:FormatOK>
+								<vr:MessageHashAlgorithm>
+									<vr:Algorithm>http://www.w3.org/2001/04/xmlenc#sha256</vr:Algorithm>
+									<vr:Suitability>
+										<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+									</vr:Suitability>
+								</vr:MessageHashAlgorithm>
+								<vr:SignatureOK>
+									<vr:SigMathOK>
+										<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+									</vr:SigMathOK>
+									<vr:SignatureAlgorithm>
+										<vr:Algorithm>http://www.w3.org/2001/04/xmldsig-more#rsa-sha256</vr:Algorithm>
+										<vr:Suitability>
+											<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											<vr:ResultMessage xml:lang="de">Die Signatur ist gültig.</vr:ResultMessage>
+										</vr:Suitability>
+									</vr:SignatureAlgorithm>
+								</vr:SignatureOK>
+								<vr:CertificatePathValidity>
+									<vr:PathValiditySummary>
+										<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+									</vr:PathValiditySummary>
+									<vr:CertificateIdentifier>
+										<ns4:X509IssuerName xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</ns4:X509IssuerName>
+										<ns4:X509SerialNumber xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">6</ns4:X509SerialNumber>
+									</vr:CertificateIdentifier>
+									<vr:PathValidityDetail>
+										<vr:CertificateValidity>
+											<vr:CertificateIdentifier>
+												<ns4:X509IssuerName xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</ns4:X509IssuerName>
+												<ns4:X509SerialNumber xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">6</ns4:X509SerialNumber>
+											</vr:CertificateIdentifier>
+											<vr:Subject>C=DE,O=exceet Secure Solutions GmbH,2.5.4.97=NTRDE-HRB78770,CN=exceet TSA 04</vr:Subject>
+											<vr:ChainingOK>
+												<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											</vr:ChainingOK>
+											<vr:ValidityPeriodOK>
+												<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											</vr:ValidityPeriodOK>
+											<vr:ExtensionsOK xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">
+												<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											</vr:ExtensionsOK>
+											<vr:SignatureOK>
+												<vr:SigMathOK>
+													<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+												</vr:SigMathOK>
+											</vr:SignatureOK>
+											<vr:CertificateStatus xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">
+												<vr:CertStatusOK>
+													<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+												</vr:CertStatusOK>
+												<vr:RevocationEvidence>
+													<vr:OCSPValidity>
+														<vr:OCSPIdentifier>
+															<ns3:ResponderID xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">
+																<ns3:ByName>C=DE,O=exceet Secure Solutions GmbH,2.5.4.97=VATDE-215384696,CN=exceet RSA OCSP 2021:1</ns3:ByName>
+															</ns3:ResponderID>
+															<ns3:ProducedAt xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">2022-06-03T10:07:54.000+02:00</ns3:ProducedAt>
+														</vr:OCSPIdentifier>
+														<vr:SignatureOK>
+															<vr:SigMathOK>
+																<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+															</vr:SigMathOK>
+														</vr:SignatureOK>
+														<vr:CertificatePathValidity>
+															<vr:PathValiditySummary>
+																<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+															</vr:PathValiditySummary>
+															<vr:CertificateIdentifier>
+																<ns4:X509IssuerName>C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</ns4:X509IssuerName>
+																<ns4:X509SerialNumber>10</ns4:X509SerialNumber>
+															</vr:CertificateIdentifier>
+															<vr:PathValidityDetail>
+																<vr:CertificateValidity>
+																	<vr:CertificateIdentifier>
+																		<ns4:X509IssuerName>C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</ns4:X509IssuerName>
+																		<ns4:X509SerialNumber>10</ns4:X509SerialNumber>
+																	</vr:CertificateIdentifier>
+																	<vr:Subject>C=DE,O=exceet Secure Solutions GmbH,2.5.4.97=VATDE-215384696,CN=exceet RSA OCSP 2021:1</vr:Subject>
+																	<vr:ChainingOK xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">
+																		<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	</vr:ChainingOK>
+																	<vr:ValidityPeriodOK xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">
+																		<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	</vr:ValidityPeriodOK>
+																	<vr:ExtensionsOK>
+																		<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	</vr:ExtensionsOK>
+																	<vr:SignatureOK>
+																		<vr:SigMathOK>
+																			<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																		</vr:SigMathOK>
+																	</vr:SignatureOK>
+																	<vr:CertificateStatus>
+																		<vr:CertStatusOK>
+																			<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																		</vr:CertStatusOK>
+																	</vr:CertificateStatus>
+																</vr:CertificateValidity>
+																<vr:TrustAnchor>
+																	<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	<vr:ResultMinor>urn:oasis:names:tc:dss-x:1.0:profiles:verificationreport:trustanchor:certDataBase</vr:ResultMinor>
+																</vr:TrustAnchor>
+															</vr:PathValidityDetail>
+														</vr:CertificatePathValidity>
+													</vr:OCSPValidity>
+												</vr:RevocationEvidence>
+											</vr:CertificateStatus>
+										</vr:CertificateValidity>
+										<vr:CertificateValidity>
+											<vr:CertificateIdentifier>
+												<ns4:X509IssuerName xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</ns4:X509IssuerName>
+												<ns4:X509SerialNumber xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">1</ns4:X509SerialNumber>
+											</vr:CertificateIdentifier>
+											<vr:Subject>C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</vr:Subject>
+											<vr:ChainingOK>
+												<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											</vr:ChainingOK>
+											<vr:ValidityPeriodOK>
+												<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											</vr:ValidityPeriodOK>
+											<vr:ExtensionsOK>
+												<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											</vr:ExtensionsOK>
+											<vr:SignatureOK>
+												<vr:SigMathOK>
+													<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+												</vr:SigMathOK>
+											</vr:SignatureOK>
+											<vr:CertificateStatus xmlns:ns4="http://www.w3.org/2000/09/xmldsig#">
+												<vr:CertStatusOK>
+													<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+												</vr:CertStatusOK>
+												<vr:RevocationEvidence>
+													<vr:OCSPValidity>
+														<vr:OCSPIdentifier>
+															<ns3:ResponderID xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">
+																<ns3:ByName>C=DE,O=exceet Secure Solutions GmbH,2.5.4.97=VATDE-215384696,CN=exceet RSA OCSP 2021:1</ns3:ByName>
+															</ns3:ResponderID>
+															<ns3:ProducedAt xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">2022-06-03T10:08:02.000+02:00</ns3:ProducedAt>
+														</vr:OCSPIdentifier>
+														<vr:SignatureOK>
+															<vr:SigMathOK>
+																<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+															</vr:SigMathOK>
+														</vr:SignatureOK>
+														<vr:CertificatePathValidity>
+															<vr:PathValiditySummary>
+																<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+															</vr:PathValiditySummary>
+															<vr:CertificateIdentifier>
+																<ns4:X509IssuerName>C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</ns4:X509IssuerName>
+																<ns4:X509SerialNumber>10</ns4:X509SerialNumber>
+															</vr:CertificateIdentifier>
+															<vr:PathValidityDetail>
+																<vr:CertificateValidity>
+																	<vr:CertificateIdentifier>
+																		<ns4:X509IssuerName>C=DE,O=exceet Secure Solutions GmbH,CN=exceet trustcenter CA2</ns4:X509IssuerName>
+																		<ns4:X509SerialNumber>10</ns4:X509SerialNumber>
+																	</vr:CertificateIdentifier>
+																	<vr:Subject>C=DE,O=exceet Secure Solutions GmbH,2.5.4.97=VATDE-215384696,CN=exceet RSA OCSP 2021:1</vr:Subject>
+																	<vr:ChainingOK xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">
+																		<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	</vr:ChainingOK>
+																	<vr:ValidityPeriodOK xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#">
+																		<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	</vr:ValidityPeriodOK>
+																	<vr:ExtensionsOK>
+																		<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	</vr:ExtensionsOK>
+																	<vr:SignatureOK>
+																		<vr:SigMathOK>
+																			<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																		</vr:SigMathOK>
+																	</vr:SignatureOK>
+																	<vr:CertificateStatus>
+																		<vr:CertStatusOK>
+																			<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																		</vr:CertStatusOK>
+																	</vr:CertificateStatus>
+																</vr:CertificateValidity>
+																<vr:TrustAnchor>
+																	<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+																	<vr:ResultMinor>urn:oasis:names:tc:dss-x:1.0:profiles:verificationreport:trustanchor:certDataBase</vr:ResultMinor>
+																</vr:TrustAnchor>
+															</vr:PathValidityDetail>
+														</vr:CertificatePathValidity>
+													</vr:OCSPValidity>
+												</vr:RevocationEvidence>
+											</vr:CertificateStatus>
+										</vr:CertificateValidity>
+										<vr:TrustAnchor>
+											<vr:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</vr:ResultMajor>
+											<vr:ResultMinor>urn:oasis:names:tc:dss-x:1.0:profiles:verificationreport:trustanchor:certDataBase</vr:ResultMinor>
+										</vr:TrustAnchor>
+									</vr:PathValidityDetail>
+								</vr:CertificatePathValidity>
+							</vr:TimeStamp>
+						</esorvr:ArchiveTimeStamp>
+					</esorvr:ArchiveTimeStampChain>
+				</esorvr:ArchiveTimeStampSequence>
+			</esorvr:EvidenceRecordReport>
+		</vr:Details>
+	</vr:IndividualReport>
+</vr:VerificationReport>

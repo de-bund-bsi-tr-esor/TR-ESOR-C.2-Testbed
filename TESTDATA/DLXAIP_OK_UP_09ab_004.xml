@@ -9,7 +9,7 @@
 				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
 			</xaip:preservationInfo>
 			<xaip:submissionInfo>
-				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+				<xaip:clientID>CLIENT_ID_TO_BE_SET</xaip:clientID>
 			</xaip:submissionInfo>
 			<xaip:packageInfoUnit packageUnitID="PKDIUID-02">
 				<xaip:textInfo>Erster Update des abgelegten Vorgangs</xaip:textInfo>
@@ -29,7 +29,7 @@
 				<asic:DataObjectReference URI="REF_CADES_ATT_TXT_DATA_60b">
 					<!-- SHA3-512 algorithm is used -->
 					<ds:DigestMethod Algorithm="http://www.w3.org/2007/05/xmldsig-more#sha3-512"/>
-					<ds:DigestValue>GflqnycFNDhtXHbXnzUAL4MlkBL9GRzlowB5Di4EC8R4chTpKxt0r7RrHYS8AT7NbSpj9/nzjhSC4BC4aY/mWw==</ds:DigestValue>
+					<ds:DigestValue>XFd5nPDUaXYk+p8mYqFvh1xekd5LxfROsJEBw0xGadwqEnx0qR7h46YpZqax2ne01Q2wYwBzILHdRgn06EfLjQ==</ds:DigestValue>
 				</asic:DataObjectReference>
 			</xaip:other>
 		</xaip:credential>
