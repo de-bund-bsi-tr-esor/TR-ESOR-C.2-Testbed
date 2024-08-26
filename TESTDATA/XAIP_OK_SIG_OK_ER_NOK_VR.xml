@@ -6,7 +6,7 @@
 		<vr:SignedObjectIdentifier FieldName="XAIP AOID-001"/>
 		<dss:Result>
 			<dss:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:invalid</dss:ResultMajor>
-			<dss:ResultMessage xml:lang="en">Invalid fields [credentialsSection/credential[@credentialID='ER-V001']/evidenceRecordReport/archiveTimeStampSequence/archiveTimeStampChain[1]/archiveTimeStamp[1]/formatOK]</dss:ResultMessage>
+			<dss:ResultMessage xml:lang="en">Invalid fields [credentialsSection/credential[@credentialID='AN_UNIQ_CR_ID_00000001']/evidenceRecordReport/archiveTimeStampSequence/archiveTimeStampChain[1]/archiveTimeStamp[1]/formatOK]</dss:ResultMessage>
 		</dss:Result>
 		<vr:Details>
 			<esorvr:XAIPReport ReportVersion="1.3.0" XAIPVersion="1.3.0" xmlns:esor="http://www.bsi.bund.de/tr-esor/xaip" xmlns:esorvr="http://www.bsi.bund.de/tr-esor/vr" xmlns:ns10="urn:oasis:names:tc:dss-x:1.0:profiles:SignaturePolicy:schema#">
