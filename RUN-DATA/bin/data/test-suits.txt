@@ -1,0 +1,15 @@
+3.4.1.1-S4-RetrieveInfo-TestSuite:test-cases-S4-RI.txt
+3.4.1.2-S4-ArchiveSubmission-TestSuite:test-cases-S4-SU.txt
+3.4.1.3-S4-ArchiveUpdate-TestSuite:test-cases-S4-UP.txt
+3.4.1.4-S4-ArchiveRetrieval-TestSuite:test-cases-S4-RE.txt
+3.4.1.5-S4-ArchiveEvidence-TestSuite:test-cases-S4-EV.txt
+3.4.1.6-S4-ArchiveDeletion-TestSuite:test-cases-S4-DE.txt
+3.4.1.7-S4-Verify-TestSuite:test-cases-S4-VE.txt
+3.4.1.8-S4-Additional-TestSuite:test-cases-S4-ADD.txt
+3.4.2.1-S512-RetrieveInfo-TestSuite:test-cases-S512-RI.txt
+3.4.2.2-S512-PreservePO-TestSuite:test-cases-S512-PP.txt
+3.4.2.3-S512-UpdatePOC-TestSuite:test-cases-S512-UP.txt
+3.4.2.4-S512-RetrievePO-TestSuite:test-cases-S512-RE.txt
+3.4.2.5-S512-DeletePO-TestSuite:test-cases-S512-DE.txt
+3.4.2.6-S512-ValidateEvidence-TestSuite:test-cases-S512-VE.txt
+3.4.2.7-S512-Additional-TestSuite:test-cases-S512-ADD.txt

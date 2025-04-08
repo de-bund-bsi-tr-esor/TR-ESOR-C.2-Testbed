@@ -1,0 +1,12 @@
+#!/bin/bash
+export SOAPUI_HOME=/usr/local/SmartBear/SoapUI-5.8.0
+export SOAPUI_BIN=$SOAPUI_HOME/bin
+export TST_RUNNER=$SOAPUI_BIN/testrunner.sh
+
+export TEST_BIN_HOME=$(pwd)
+export TESTBED_HOME=${TEST_BIN_HOME}/../..
+
+export TEST_PROJECT_FILE_NAME=TR-ESOR-1.3.0-C2-Testbed-soapui-project.xml
+export TEST_REPORTS_DIR=${TESTBED_HOME}/RUN-DATA/TEST-RUN-REPORTS/REPORTS
+
+export TEST_RUN_EVAL_DIR=${TESTBED_HOME}/RUN-DATA/TEST-RUN-EVALUATION
