@@ -1,6 +1,6 @@
 rem TS_NAME input parameter is needed
 
-echo akt. TS_NAME: [!TS_NAME!]
+echo [I] akt. TS_NAME: [!TS_NAME!]
 
 set TS_REPORTS_DIR=%TEST_REPORTS_DIR%\%TS_NAME%
 
