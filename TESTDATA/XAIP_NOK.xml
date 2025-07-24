@@ -8,9 +8,10 @@
 				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
 			</xaip:preservationInfo>
 			<xaip:submissionInfo>
-				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+				<xaip:clientID>CLIENT_ID_TO_BE_SET</xaip:clientID>
 			</xaip:submissionInfo>
 			<xaip:packageInfoUnit packageUnitID="PKDIUID-01">
+				<!-- following element xaip:dataObject is not allowed here -->
 				<xaip:dataObject dataObjectID="DO-01" relatedObjects="MDO-01">
 					<xaip:binaryData MimeType="text/plain">DQpCdW5kZXNhbXQgZvxyIFNpY2hlcmhlaXQgaW4gZGVyIEluZm9ybWF0aW9uc3RlY2huaWsgKEJTSSkNCg0KVGVzdGRva3VtZW50Lg0KDQoyMDE5</xaip:binaryData>
 					<xaip:checkSum>

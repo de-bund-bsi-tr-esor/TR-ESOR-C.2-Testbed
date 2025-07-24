@@ -8,7 +8,7 @@
 				<xaip:retentionPeriod>2100-01-01+01:00</xaip:retentionPeriod>
 			</xaip:preservationInfo>
 			<xaip:submissionInfo>
-				<xaip:clientID>BSI-Test-Client</xaip:clientID>
+				<xaip:clientID>CLIENT_ID_TO_BE_SET</xaip:clientID>
 			</xaip:submissionInfo>
 			<xaip:packageInfoUnit packageUnitID="PKDIUID-01">
 				<xaip:textInfo>Initialer Stand des abgelegten Vorgangs</xaip:textInfo>
@@ -20,7 +20,7 @@
 	<xaip:dataObjectsSection>
 		<xaip:dataObject dataObjectID="DO-01">
 			<!-- TXT_DATA.txt -->
-			<xaip:binaryData MimeType="text/plain">DQpCdW5kZXNhbXQgZvxyIFNpY2hlcmhlaXQgaW4gZGVyIEluZm9ybWF0aW9uc3RlY2huaWsgKEJTSSkNCg0KVGVzdGRva3VtZW50Lg0KDQoyMDE5</xaip:binaryData>
+			<xaip:binaryData MimeType="text/plain">DQpCdW5kZXNhbXQgZvxyIFNpY2hlcmhlaXQgaW4gZGVyIEluZm9ybWF0aW9uc3RlY2huaWsgKEJTSSkNCg0KQlNJLVRSLTAzMTI1IChUUi1FU09SKTogVGVzdGRva3VtZW50Lg0KDQoyMDI0</xaip:binaryData>
 		</xaip:dataObject>
 	</xaip:dataObjectsSection>
 </xaip:XAIP>

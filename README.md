@@ -6,7 +6,7 @@
 
 ## Introduction
 
-TR-ESOR tesbed according to [TR-ESOR-C.2] supporting the mandatory functions:
+TR-ESOR tesbed according to [TR-ESOR-C.2] supporting the mandatory functions of TR-S.4 interface:
 + *RetrieveInfo* - see [TR-ESOR-E, chapter 3.8](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
 + *ArchiveSubmission* - [TR-ESOR-E, chapter 3.1](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
 + *ArchiveUpdate* - [TR-ESOR-E, chapter 3.2](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
@@ -14,6 +14,14 @@ TR-ESOR tesbed according to [TR-ESOR-C.2] supporting the mandatory functions:
 + *ArchiveEvidence* - [TR-ESOR-E, chapter 3.4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
 + *ArchiveDeletion* - [TR-ESOR-E, chapter 3.5](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
 + *Verify* - [TR-ESOR-E, chapter 3.7](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
+
+and TR-S.512 interface:
++ *RetrieveInfo* - [TR-ESOR-E, chapter 4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
++ *PreservePO* - [TR-ESOR-E, chapter 4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
++ *UpdatePOC* - [TR-ESOR-E, chapter 4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
++ *RetrievePO* - [TR-ESOR-E, chapter 4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
++ *DeletePO* - [TR-ESOR-E, chapter 4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
++ *ValidateEvidence* - [TR-ESOR-E, chapter 4](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf)
 
 and the following Archive Information Packages (AIP):
 + XAIP as XML-based AIP, [TR-ESOR-F, chapter 3.1](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_F_V1_3.pdf) and 

@@ -1,30 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<collection Id="root">
-	<album>
-		<title>Questions, unanswered</title>
-		<artist>Steve and the flubberblubs</artist>
-		<year>1989</year>
-		<t:tracks xmlns:t="http://test.xades4j/tracks">
-			<t:song tracknumber="1" length="4:05">
-				<t:title>What do you know?</t:title>
-				<t:artist>Steve and the flubberblubs</t:artist>
-				<t:lastplayed>2006-10-17-08:31</t:lastplayed>
-			</t:song>
-			<t:song tracknumber="2" length="3:45">
-				<t:title>Who do you know?</t:title>
-				<t:artist>Steve and the flubberblubs</t:artist>
-				<t:lastplayed>2006-10-17-08:35</t:lastplayed>
-			</t:song>
-			<t:song tracknumber="3" length="5:14">
-				<t:title>When do you know?</t:title>
-				<t:artist>Steve and the flubberblubs</t:artist>
-				<t:lastplayed>2006-10-17-08:39</t:lastplayed>
-			</t:song>
-			<t:song tracknumber="4" length="4:19">
-				<t:title>Do you know?</t:title>
-				<t:artist>Steve and the flubberblubs</t:artist>
-				<t:lastplayed>2006-10-17-08:44</t:lastplayed>
-			</t:song>
-		</t:tracks>
-	</album>
-</collection>
+<bsi:technicalGuideline Id="root" xmlns:bsi="https://bsi.bund.de/TR-ESOR/testdata">
+		<bsi:title>BSI Technische Richtlinie 03125 Beweiswerterhaltung kryptographisch signierter Dokumente</bsi:title>
+		<bsi:version>1.3</bsi:version>
+		<bsi:releaseDate>2024</bsi:releaseDate>
+		<doc:documents xmlns:doc="https://bsi.bund.de/TR-ESOR/testdata/documents">
+			<doc:document docType="master" format="document">
+				<bsi:title>TR-ESOR – Beweiswerterhaltung kryptographisch signierter Dokumente</bsi:title>
+				<bsi:version>1.3</bsi:version>
+				<bsi:releaseDate>31.03.2022</bsi:releaseDate>
+			</doc:document>
+			<doc:document docType="appendix" format="document">
+				<bsi:title>Profilierung der Evidence Records gemäß RFC4998 und RFC6283</bsi:title>
+				<bsi:version>1.3</bsi:version>
+				<bsi:releaseDate>31.03.2022</bsi:releaseDate>
+			</doc:document>
+		</doc:documents>
+</bsi:technicalGuideline>

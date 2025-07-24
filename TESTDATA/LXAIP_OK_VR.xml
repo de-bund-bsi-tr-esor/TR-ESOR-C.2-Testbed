@@ -1,0 +1,57 @@
+<ns3:VerificationReport xmlns="urn:oasis:names:tc:dss:1.0:core:schema" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="urn:oasis:names:tc:dss-x:1.0:profiles:verificationreport:schema#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://www.bsi.bund.de/ecard/api/1.1" xmlns:ns6="urn:iso:std:iso-iec:24727:tech:schema" xmlns:ns7="http://uri.etsi.org/02918/v1.2.1#" xmlns:ns8="http://www.bsi.bund.de/tr-esor/api/1.3" xmlns:ns9="http://uri.etsi.org/19512/v1.1.2#" xmlns:ns10="urn:ietf:params:xml:ns:ers" xmlns:ns11="http://www.bsi.bund.de/tr-esor/xaip" xmlns:ns12="http://docs.oasis-open.org/dss-x/ns/metadata" xmlns:ns13="http://docs.oasis-open.org/dss-x/ns/xmldsig/rewritten" xmlns:ns14="http://docs.oasis-open.org/dss-x/ns/nsList" xmlns:ns15="http://docs.oasis-open.org/dss-x/ns/base" xmlns:ns16="http://www.setcce.org/schemas/ers" xmlns:ns17="http://www.bsi.bund.de/tr-esor/vr" xmlns:ns18="http://uri.etsi.org/19102/v1.2.1#" xmlns:ns19="http://uri.etsi.org/02231/v2#">
+	<VerificationTimeInfo>
+		<VerificationTime>2024-06-07T15:59:20.855+02:00</VerificationTime>
+	</VerificationTimeInfo>
+	<ns3:IndividualReport>
+		<ns3:SignedObjectIdentifier/>
+		<Result>
+			<ResultMajor>urn:oasis:names:tc:dss:1.0:resultmajor:Success</ResultMajor>
+			<ResultMessage xml:lang="en">successfully validated the xaip structure</ResultMessage>
+		</Result>
+		<ns3:Details>
+			<ns17:XAIPReport XAIPVersion="1.3.0" ReportVersion="1.3.0">
+				<ns17:FormatOK>
+					<ns3:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</ns3:ResultMajor>
+					<ns3:ResultMessage xml:lang="en">xaip is schema conform</ns3:ResultMessage>
+				</ns17:FormatOK>
+				<ns17:packageHeader packageID="PKGID-01">
+					<ns17:AOID>AOID:MOCK-TEST-AOID-001a</ns17:AOID>
+					<ns17:versionManifest VersionID="V001">
+						<ns17:preservationInfo>
+							<ns3:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</ns3:ResultMajor>
+						</ns17:preservationInfo>
+					</ns17:versionManifest>
+					<ns17:canonicalizationMethod>
+						<ns3:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</ns3:ResultMajor>
+						<ns3:ResultMessage xml:lang="en">using valid algorithm http://www.w3.org/2001/10/xml-exc-c14n#</ns3:ResultMessage>
+					</ns17:canonicalizationMethod>
+				</ns17:packageHeader>
+				<ns17:metaDataSection>
+					<ns17:metaDataObject metaDataID="MDO-01">
+						<ns17:relatedObjects>
+							<ns17:XPath>//*[namespace-uri()='http://www.bsi.bund.de/tr-esor/xaip'][@*[ends-with(local-name(), 'ID')]='DO-01']</ns17:XPath>
+						</ns17:relatedObjects>
+						<ns17:checkSum>
+							<ns3:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</ns3:ResultMajor>
+						</ns17:checkSum>
+						<ns17:content>
+							<ns3:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</ns3:ResultMajor>
+						</ns17:content>
+					</ns17:metaDataObject>
+				</ns17:metaDataSection>
+				<ns17:dataObjectsSection>
+					<ns17:dataObject dataObjectID="DO-01">
+						<ns17:checksum>
+							<ns3:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</ns3:ResultMajor>
+						</ns17:checksum>
+					</ns17:dataObject>
+					<ns17:dataObject dataObjectID="DO-02">
+						<ns17:checksum>
+							<ns3:ResultMajor>urn:oasis:names:tc:dss:1.0:detail:valid</ns3:ResultMajor>
+						</ns17:checksum>
+					</ns17:dataObject>
+				</ns17:dataObjectsSection>
+			</ns17:XAIPReport>
+		</ns3:Details>
+	</ns3:IndividualReport>
+</ns3:VerificationReport>
