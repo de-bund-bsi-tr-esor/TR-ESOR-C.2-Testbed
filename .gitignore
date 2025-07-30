@@ -1,3 +1,5 @@
 *.backup
 *Kopie*
 *.bak
+tmp
+*~
